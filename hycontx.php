@@ -72,7 +72,7 @@ switch($action) {
 
 	case "getTx":
 		$params = array(
-			"hash" => get_requested_value("hash");
+			"hash" => get_requested_value("hash")
 		);
 
 		if(!empty($params['hash'])) {
